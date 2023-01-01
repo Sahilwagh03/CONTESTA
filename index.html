@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--divinectorweb.com-->
+
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>CONTESTA</title>
+	<!-- All CSS -->
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class="container">
+			<img src="img/contesta.png" class="color-img" alt="Bootstrap" width="30" height="30">
+			<a class="navbar-brand" href="#"><span class="text-warning">CONTESTA</span></a> <button
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+				class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
+				type="button"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contests">Contests</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#team">Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+		<div class="carousel-indicators">
+			<button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators"
+				type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1"
+				data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 3"
+				data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img alt="..." class="d-block w-100" src="img/img1.jpg">
+				<div class="carousel-caption">
+					<h5>Daily Contest Info</h5>
+					<p>Get all information of contest in one click with the links,start and end time.</p>
+					<!-- <p><a class="btn btn-warning mt-3" href="#">Learn More</a></p> -->
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="..." class="d-block w-100" src="img/img2.jpg">
+				<div class="carousel-caption">
+					<h5>Always Dedicated</h5>
+					<p>We Help you to find a best coding contest.</p>
+					<!-- <p><a class="btn btn-warning mt-3" href="#">Learn More</a></p> -->
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="..." class="d-block w-100" src="img/img3.jpg">
+				<div class="carousel-caption">
+					<h5>Coding Qutoes</h5>
+					<p>You have competition every day because you set such high standards for yourself that you have to
+						go out every day and live up to that</p>
+					<!-- <p><a class="btn btn-warning mt-3" href="#">Learn More</a></p> -->
+				</div>
+			</div>
+		</div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators"
+			type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span
+				class="visually-hidden">Previous</span></button> <button class="carousel-control-next"
+			data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true"
+				class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
+	</div>
+	<!-- services section Starts -->
+	<section class="services section-padding" id="contests">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-3">
+						<h1 id="cont">CONTESTS</h1>
+						<p>New contest are here bleow with links you can directly visit those sites</p>
+					</div>
+				</div>
+			</div>
+			<div class="container row m-auto p-2 justify-content-center">
+				<div class="card mx-2 my-2 py-4 shadow" style="width: 20rem;">
+					<img src="https://tse3.mm.bing.net/th?id=OIP.9td2vBDyGadl0Cs722WRLQHaEc&pid=Api&P=0"
+					style="height: 165px;"	class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title" id="firstC"></h5>
+						<p class="card-text">
+						<p><b>Site: </b><span id="SiteName1"></span></p>
+						<p><b>Start At: </b><span id="Start1"></span></p>
+						<p><b>End At: </b><span id="End1"></span></p>
+						<p><b>Status: </b><span id="Status1"></span></p>
+						</p>
+						<a href="" id="url1" target="_blank" rel="noopener noreferrer" class="btn btn-warning">Visit
+							Now</a>
+					</div>
+				</div>
+				<div class="card mx-2 my-2 py-4 shadow" style="width: 20rem;">
+					<img src="https://tse4.mm.bing.net/th?id=OIP.yddKu4k0dXFBRWcIFX1RSAHaEO&pid=Api&P=0"
+					style="height: 165px;"	class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title" id="secondC"></h5>
+						<p class="card-text">
+						<p><b>Site: </b><span id="SiteName2"></span></p>
+						<p><b>Start At: </b><span id="Start2"></span></p>
+						<p><b>End At: </b><span id="End2"></span></p>
+						<p><b>Status: </b><span id="Status2"></span></p>
+						</p>
+						<a href="" id="url2" target="_blank" rel="noopener noreferrer" class="btn btn-warning">Visit
+							Now</a>
+					</div>
+				</div>
+				<div class="card mx-2 my-2 py-4 shadow" style="width: 20rem;">
+					<img src="https://as1.ftcdn.net/v2/jpg/03/43/43/72/1000_F_343437244_HrxIVZWbfh29tgxuRlxbPXEpHMSmfkAn.jpg" style="height: 165px;"class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title" id="thirdC"></h5>
+						<p class="card-text">
+						<p><b>Site: </b><span id="SiteName3"></span></p>
+						<p><b>Start At: </b><span id="Start3"></span></p>
+						<p><b>End At: </b><span id="End3"></span></p>
+						<p><b>Status: </b><span id="Status3"></span></p>
+						</p>
+						<a href="" id="url3" target="_blank" rel="noopener noreferrer" class="btn btn-warning">Visit
+							Now</a>
+					</div>
+				</div>
+			</div>
+			<div class="container row m-auto p-2 justify-content-center">
+				<div class="card mx-2 my-2 py-4 shadow" style="width: 20rem;">
+					<img src="https://as2.ftcdn.net/v2/jpg/01/70/06/81/1000_F_170068120_94LGSApgvbAT8igvvemoZ6eE7fVWgxlf.jpg"
+					style="height: 165px;"	class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title" id="fourthC"></h5>
+						<p class="card-text">
+						<p><b>Site: </b><span id="SiteName4"></span></p>
+						<p><b>Start At: </b><span id="Start4"></span></p>
+						<p><b>End At: </b><span id="End4"></span></p>
+						<p><b>Status: </b><span id="Status4"></span></p>
+						</p>
+						<a href="" id="url4" target="_blank" rel="noopener noreferrer" class="btn btn-warning">Visit
+							Now</a>
+					</div>
+				</div>
+				<div class="card mx-2 my-2 py-4 shadow" style="width: 20rem;">
+					<img src="https://as1.ftcdn.net/v2/jpg/02/57/63/38/1000_F_257633808_90hcBmo6THhRwLjdIAuZksZ40WfQFHYF.jpg"
+					style="height: 165px;"	class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title" id="fiveC"></h5>
+						<p class="card-text">
+						<p><b>Site: </b><span id="SiteName5"></span></p>
+						<p><b>Start At: </b><span id="Start5"></span></p>
+						<p><b>End At: </b><span id="End5"></span></p>
+						<p><b>Status: </b><span id="Status5"></span></p>
+						</p>
+						<a href="" id="url5" target="_blank" rel="noopener noreferrer" class="btn btn-warning">Visit
+							Now</a>
+					</div>
+				</div>
+				<div class="card mx-2 my-2 py-4 shadow" style="width: 20rem;">
+					<img src="https://getwallpapers.com/wallpaper/full/6/6/8/15065.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title" id="sixC"></h5>
+						<p class="card-text">
+						<p><b>Site: </b><span id="SiteName6"></span></p>
+						<p><b>Start At: </b><span id="Start6"></span></p>
+						<p><b>End At: </b><span id="End6"></span></p>
+						<p><b>Status: </b><span id="Status6"></span></p>
+						</p>
+						<a href="" id="url6" target="_blank" rel="noopener noreferrer" class="btn btn-warning">Visit
+							Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- services section Ends -->
+	<!-- portfolio strats -->
+	<section class="portfolio section-padding" id="projects">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-5">
+						<h2>Our Projects</h2>
+						<p>Projects by us include file downloader,weather App ,etc...</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-12 col-lg-4">
+					<div class="card text-light text-center bg-white pb-2">
+						<div class="card-body text-dark">
+							<div class="img-area mb-4"><img alt="" class="img-fluid" src=""></div>
+							<h3 class="card-title">Weather App</h3>
+							<p class="lead">This project uses html,css,bootstrap,js which provide weather of a city you
+								want. search function is also implemented
+							</p><a href="https://weather-app-iota-six.vercel.app/" target="_blank"
+								rel="noopener noreferrer" class="btn btn-warning">Visit</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-12 col-lg-4">
+					<div class="card text-light text-center bg-white pb-2">
+						<div class="card-body text-dark">
+							<div class="img-area mb-4"><img alt="" class="img-fluid" src=""></div>
+							<h3 class="card-title">File Downloader</h3>
+							<p class="lead">This project uses html,css,bootstrap,js.You can download any file such as
+								img,video,htmlfile etc...</p>
+							<a href="https://filerd-sahilwagh03.vercel.app/" target="_blank" rel="noopener noreferrer"
+								class="btn btn-warning">Visit</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-12 col-lg-4">
+					<div class="card text-light text-center bg-white pb-2">
+						<div class="card-body text-dark">
+							<div class="img-area mb-4"><img alt="" class="img-fluid" src=""></div>
+							<h3 class="card-title">Shoppy</h3>
+							<p class="lead">This project uses html,css,bootstrap,js,ReactJs.It is UI for ecommerce
+								<br> website using reacjs
+							</p>
+							<a href="https://dashboard-react-seven-wine.vercel.app/" target="_blank"
+								rel="noopener noreferrer" class="btn btn-warning">Visit</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- portfolio ends -->
+	<!-- team starts -->
+	<section class="team section-padding" id="team">
+		<div class="container ">
+			<div class="row ">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-5">
+						<h2>Our Team</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="img/sahilP.jpg">
+							<h3 class="card-title py-2">Sahil</h3>
+							<p class="card-text">I am constantly looking for ways to improve my skills and stay
+								up-to-date with the latest developments in the field. Overall, I am confident in my
+								ability to write efficient and effective code for a wide range of projects.
+								I have experience working with a HTML, CSS, JavaScript </p>
+							<p class="socials"><a href="https://github.com/Sahilwagh03" target="_blank"><i
+										class="bi bi-github text-dark mx-1"></i></a>
+								<a href="#" target="_blank"><i class="bi bi-facebook text-dark mx-1"></i></a>
+								<a href="#" target="_blank"><i class="bi bi-linkedin text-dark mx-1"></i> </a>
+								<a href="#" target="_blank"><i class="bi bi-instagram text-dark mx-1"></i>
+							</p></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3">
+					<div class="card text-center">
+						<div class="card-body">
+							<img alt="" class="img-fluid rounded-circle" src="img/akshayP.jpg">
+							<h3 class="card-title py-2">Akshay</h3>
+							<p class="card-text">I have experience working with a variety of programming languages,
+								including HTML, CSS, JavaScript to create dynamic and responsive
+								websites.I am proficient in using frameworks such as Bootstrap, React to
+								speed up development and build high-quality applications</p>
+							<p class="socials"><a href="https://github.com/Akshay200228" target="_blank"><i
+								class="bi bi-github text-dark mx-1"></i></a> <i
+									class="bi bi-facebook text-dark mx-1"></i> <i
+									class="bi bi-linkedin text-dark mx-1"></i> <i
+									class="bi bi-instagram text-dark mx-1"></i></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- team ends -->
+	<!-- about section starts -->
+	<section class="about section-padding" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img alt="" class="img-fluid" src="img/about.jpg"></div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text">
+						<h2>We Provide the Best Contest<br>
+							avaliable on different websites</h2>
+						<p>Welcome to our website! We are a team of passionate creatives who love nothing more than
+							bringing people together through fun and engaging contests.
+							We hope that our website will be a valuable resource for anyone looking for the contest
+							going on different websites or take their skills to the next level
+							Thank you for visiting our website, and we hope you find our resources helpful and
+							enjoyable!
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!-- about section Ends -->
+	<!-- Contact starts -->
+	<!-- <section class="contact section-padding" id="contact">
+		<div class="container mt-5 mb-5">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-5">
+						<h2>Contact Us</h2>
+						<p></p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>contact ends -->
+	<!-- footer starts -->
+	<footer class="bg-dark p-2 text-center">
+		<div class="container">
+			<p class="text-white">All Right Reserved By @CONTESTA</p>
+			<p class="socials"><i class="bi bi-github text-light mx-1"></i> <i
+					class="bi bi-facebook text-light mx-1"></i> <i class="bi bi-linkedin text-light mx-1"></i> <i
+					class="bi bi-instagram text-light mx-1"></i></p>
+		</div>
+	</footer>
+	<!-- footer ends -->
+
+	<!-- All Js -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
